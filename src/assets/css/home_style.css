@@ -1,0 +1,38 @@
+body, html, #root, .appjs {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.bgimg {
+  position: relative;
+  opacity: 0.65;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+.bgimg {
+  background-image: url("../img/homepage-bg.png");
+  height: 100%;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #3b5a77;
+}
+
+.caption p.border {
+  border-color: transparent !important;
+  padding: 18px;
+  font-size: 25px;
+}
+
+footer {
+  margin-top: 100px;
+}
