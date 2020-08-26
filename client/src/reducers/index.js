@@ -12,10 +12,10 @@ import { REHYDRATE } from 'redux-persist/lib/constants';
 // LOGIN_FORM_VALUES_R (R means invokes reducer directly) for
 // populating login form with values
 export default function reducer(state=initialState, action){
-	switch(action.type){
+  switch(action.type){
     case REHYDRATE:
       return { ...state, persistedState: action.payload };
-		case LOGIN_FORM_VALUES_R:
+    case LOGIN_FORM_VALUES_R:
       return {
         ...state,  
         login: {
